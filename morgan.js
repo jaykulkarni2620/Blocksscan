@@ -6,6 +6,7 @@ const helmet = require('helmet');
 app.use(helmet());
 const morgan = require('morgan');
 app.use(morgan('tiny'));
+app.use(express.urlencoded());  
 
 app.get('/',(req,res)=>{
   res.send('Hello world this is jay');

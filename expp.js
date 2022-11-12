@@ -331,8 +331,8 @@ app.delete('/api/courses/:id',(req,res)=>{
 
 const port = process.env.PORT || 3000
 
-app.listen(port, ()=> console.log(`listning on port ${port}`));
-*/
+app.listen(port, ()=> console.log(`listning on port ${port}`));*/
+
 
 //-----------Middlewear----------------
 
@@ -420,15 +420,13 @@ app.listen(port,()=> console.log(`listening on port ${port}`));*/
 
 
 //Built in middleware
-
+/*
 const express = require('express');
 let app = express();
 const bodyParser = require('body-parser');
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 
-101790911148
-  621992636299
 const courses = [
   {id:1 , name: 'course1' },
   {id:2 , name: 'course2'},
@@ -446,3 +444,5 @@ app.get('/api/courses',(req,res) =>{
 
 const port = process.env.PORT || 3000
 app.listen(port,()=> console.log(`listning on port ${port}`))
+*/
+
